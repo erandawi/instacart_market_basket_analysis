@@ -5,7 +5,7 @@ import joblib
 st.title("🛒 Product Reorder Recommender")
 
 # Load model + predictions
-preds = pd.read_csv("../prediction/user_product_predictions.csv")
+preds = pd.read_csv("user_product_predictions.csv")
 
 user_ids = preds['user_id'].unique()
 user_id = st.selectbox("Choose a user ID", user_ids)
