@@ -52,15 +52,16 @@ The challenge is dealing with **severe class imbalance** and optimizing recall w
 ```
 product-recommender/
 │
-├── notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_Feature_Engineering.ipynb
-│   └── 04_Model_Training.ipynb
-│
-├── xgb_reorder_model.pkl
-├── user_product_predictions.csv
+├── notebooks/experiments.ipynb
+│    
+├── models/xgb_reorder_model.pkl
+│ 
+├── prediction/user_product_predictions.csv
+│ 
 ├── streamlit_app.py
+│ 
 ├── requirements.txt
+│ 
 └── README.md
 ```
 
